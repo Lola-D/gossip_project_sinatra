@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Edition de potin</title>
+  </head>
+  <body>
+    <h1>Editer un potin</h1>
+    	<p>Nouvelle édition :</p>
+		<form action='/gossips/:id/edit/' method='POST'>
+		<p>Ton nom :<br>
+			<input type="text" name="gossip_author_new"><br></p>
+		<p>Ton potin :<br>
+			<input type="text" name="gossip_content_new"><br></p>
+			<input type="submit" name="submit" value="Envoyer">
+		</form>
+  </body>
+</html>
