@@ -1,7 +1,9 @@
-The Gossip Project Sinatra
+# Gossip Project Sinatra
 
-Une application utilisée pour poster, lire et effacer des potins.
+Installation et utilisation
 
-Faire un "bundle install" à l'ouverture du dossier pour le bon fonctionnement de l'app
-
-Lola Donval
+$ git clone https://github.com/Lola-D/gossip_project_sinatra.git
+$ cd gossip_project_sinatra
+$ bundle install
+$ shotgun -p 4567
+Allez sur la page http://localhost:4567/
